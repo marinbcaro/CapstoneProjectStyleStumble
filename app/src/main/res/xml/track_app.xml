@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-77161936-1</string>
+    <bool name="ga_autoActivityTracking">false</bool>
+    <screenName name="com.example.carolinamarin.stylestumble.categories.CategoriesActivity">Categories</screenName>
+    <screenName name="com.example.carolinamarin.stylestumble.addProductWishList.WishListActivity">WishList</screenName>
+    <screenName name="com.example.carolinamarin.stylestumble.addsaleProducts.ProductSaleActivity">Sales</screenName>
+    <screenName name="com.example.carolinamarin.stylestumble.products.ProductsActivity">Products</screenName>
+    <screenName name="com.example.carolinamarin.stylestumble.productdetail.ProductDetailActivity">Product Detail</screenName>
+</resources>
