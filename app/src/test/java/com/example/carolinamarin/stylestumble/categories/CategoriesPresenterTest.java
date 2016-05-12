@@ -1,7 +1,7 @@
-package com.example.carolinamarin.stylestumble.categories;
+package com.chessen.project.stylestumble.categories;
 
-import com.example.carolinamarin.stylestumble.data.CategoriesRepository.LoadCategoriesCallback;
-import com.example.carolinamarin.stylestumble.data.Category;
+import com.chessen.project.stylestumble.data.CategoriesRepository.LoadCategoriesCallback;
+import com.chessen.project.stylestumble.data.Category;
 import com.google.common.collect.Lists;
 
 import org.junit.Before;

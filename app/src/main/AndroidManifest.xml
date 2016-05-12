@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.carolinamarin.stylestumble">
+    package="com.chessen.project.stylestumble">
 
-    <uses-sdk tools:overrideLibrary="com.example.carolinamarin.swipecards" />
+    <uses-sdk tools:overrideLibrary="com.chessen.project.swipecards" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,10 +26,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".util.StyleStumbleApplication"
+        android:name="com.chessen.project.stylestumble.util.StyleStumbleApplication"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".categories.CategoriesActivity"
+            android:name="com.chessen.project.stylestumble.categories.CategoriesActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".products.ProductsActivity"
+            android:name="com.chessen.project.stylestumble.products.ProductsActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_products"
             android:theme="@style/AppTheme">
@@ -54,21 +54,21 @@
 
         <provider
             android:name=".data.provider.generated.ProductProvider"
-            android:authorities="com.example.carolinamarin.stylestumble.data.provider.ProductProvider"
+            android:authorities="com.chessen.project.stylestumble.data.provider.ProductProvider"
             android:exported="false" />
 
         <service
-            android:name=".addsaleProducts.ProductSaleTaskService"
+            android:name="com.chessen.project.stylestumble.addsaleProducts.ProductSaleTaskService"
             android:exported="true"
             android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
             </intent-filter>
         </service>
-        <service android:name=".addsaleProducts.ProductSaleIntentService" />
+        <service android:name="com.chessen.project.stylestumble.addsaleProducts.ProductSaleIntentService" />
 
         <receiver
-            android:name=".widget.WidgetProvider"
+            android:name="com.chessen.project.stylestumble.widget.WidgetProvider"
             android:label="@string/title_widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -78,22 +78,22 @@
                 android:resource="@xml/widget_sales" />
         </receiver>
 
-        <service android:name=".widget.WidgetIntentService" />
+        <service android:name="com.chessen.project.stylestumble.widget.WidgetIntentService" />
         <service
-            android:name=".widget.WidgetService"
+            android:name="com.chessen.project.stylestumble.widget.WidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
         <activity
-            android:name=".addProductWishList.WishListActivity"
+            android:name="com.chessen.project.stylestumble.addProductWishList.WishListActivity"
             android:label="@string/title_activity_wish_list"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".productdetail.ProductDetailActivity"
+            android:name="com.chessen.project.stylestumble.productdetail.ProductDetailActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_product_detail"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".addsaleProducts.ProductSaleActivity"
+            android:name="com.chessen.project.stylestumble.addsaleProducts.ProductSaleActivity"
             android:label="@string/title_activity_product_sale"
             android:theme="@style/AppTheme"></activity>
     </application>

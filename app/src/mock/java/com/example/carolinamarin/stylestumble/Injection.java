@@ -1,6 +1,6 @@
-package com.example.carolinamarin.stylestumble;
+package com.chessen.project.stylestumble;
 
-import com.example.carolinamarin.stylestumble.data.FakeCategoriesServiceApiImpl;
+import com.chessen.project.stylestumble.data.FakeCategoriesServiceApiImpl;
 
 /**
  * Created by carolinamarin on 3/5/16.

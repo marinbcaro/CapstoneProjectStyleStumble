@@ -1,4 +1,4 @@
-package com.example.carolinamarin.stylestumble.data;
+package com.chessen.project.stylestumble.data;
 
 import com.google.common.collect.Lists;
 

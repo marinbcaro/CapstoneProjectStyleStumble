@@ -2,7 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/fragmentDetailProduct"
-    android:name="com.example.carolinamarin.stylestumble.productdetail.ProductDetailFragment"
+    android:name="com.chessen.project.stylestumble.productdetail.ProductDetailFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"

@@ -1,1 +1,1 @@
-include ':app', ':prod', ':swipecards'
+include ':app', ':prod'

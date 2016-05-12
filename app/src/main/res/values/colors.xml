@@ -7,5 +7,6 @@
     <color name="colorBlack">#000</color>
     <color name="colorSale">#B0171F</color>
     <color name="colorProductDescription">#757575</color>
+    <color name="colorBackgroundView">#c0c0c0</color>
 
 </resources>
